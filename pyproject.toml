@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "git-context-dump"
+version = "0.1.0"
+description = "Create compact Markdown snapshots of Git working directories."
+readme = "README.md"
+requires-python = ">=3.12"
+license = { text = "MIT" }
+authors = [{ name = "git-context-dump contributors" }]
+dependencies = []
+classifiers = [
+    "Environment :: Console",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Version Control :: Git",
+]
+
+[project.scripts]
+git-context-dump = "git_context_dump.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["git_context_dump*"]

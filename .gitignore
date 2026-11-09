@@ -1,0 +1,21 @@
+# Python & Bytecode
+__pycache__/
+*.pyc
+*.egg-info/
+dist/
+build/
+
+# Environments
+.venv/
+venv/
+env/
+
+# IDE & OS Files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Project Specific Outputs
+context.md
+*.dump.md
