@@ -5,6 +5,15 @@ __pycache__/
 dist/
 build/
 
+# Tooling caches & coverage
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
 # Environments
 .venv/
 venv/
@@ -18,4 +27,6 @@ Thumbs.db
 
 # Project Specific Outputs
 context.md
+context.xml
+context.json
 *.dump.md
